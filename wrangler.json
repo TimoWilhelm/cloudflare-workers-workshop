@@ -1,0 +1,9 @@
+{
+  "compatibility_date": "2025-09-01",
+  "main": "src/index.ts",
+  "name": "cloudflare-workers-workshop",
+  "upload_source_maps": true,
+  "observability": {
+    "enabled": true
+  }
+}
