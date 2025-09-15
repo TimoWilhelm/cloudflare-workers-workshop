@@ -54,6 +54,9 @@ cloning into 'cloudflare-workers-workshop'
 
 [Open a terminal](https://code.visualstudio.com/docs/terminal/basics) in your editor. Run the following command to install the project dependencies:
 
+> [!NOTE]
+> When using GitHub Codespaces, this command should automatically be executed when you open the project for the first time.
+
 ```bash
 $ npm install
 ...
