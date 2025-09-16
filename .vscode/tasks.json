@@ -8,6 +8,9 @@
 			"type": "shell",
 			"command": "npx wrangler dev",
 			"isBackground": true,
+			"presentation": {
+				"reveal": "always",
+			},
 			"problemMatcher": {
 				"owner": "wrangler",
 				"source": "wrangler",
