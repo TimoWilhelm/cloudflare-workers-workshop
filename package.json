@@ -3,7 +3,7 @@
 	"description": "Cloudflare Workers Workshop",
 	"private": true,
 	"devDependencies": {
-		"typescript": "5.9.2",
+		"typescript": "5.9.x",
 		"wrangler": "4.37.x"
 	},
 	"scripts": {
