@@ -19,7 +19,41 @@ Clicking on the preview link will open the automatically configured `workers.dev
 > [!NOTE]
 > Congratulations! You have successfully deployed your own Cloudflare Worker to over 330 location on the Global Cloudflare Network 🥳
 
-## Editing on GitHub Codespaces (recommended)
+## Development Environment
+
+To run this project locally, you need to have a few development tools installed on your machine
+
+<details>
+<summary>git</summary>
+Git is a distributed version control system that helps you manage different versions of you code and download projects from GitHub or other websites.
+</details>
+
+<details>
+<summary>JavaScript</summary>
+JavaScript is a programming language that is most well-known as the scripting language for Web pages.
+</details>
+
+<details>
+<summary>TypeScript</summary>
+TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling. It converts to normal JavaScript, which runs anywhere JavaScript runs.
+</details>
+
+<details>
+<summary>Node.js</summary>
+Node.js is a runtime to run JavaScript code outside of Web browsers.
+</details>
+
+<details>
+<summary>NPM</summary>
+NPM stands for "Node Package Manager" and it allows you to download code written by other people and import it into your projects. It comes bundled with Node.js
+</details>
+
+<details>
+<summary>Wrangler</summary>
+Wrangler is a command line tool to manage the local development of Cloudflare Workers. It uses an emulator ([Miniflare](https://developers.cloudflare.com/workers/testing/miniflare/)) under the hood to simulate the same environment the code would run in on Cloudflare.
+</details>
+
+### Editing in GitHub Codespaces (recommended)
 
 You can use GitHub Codespaces to get a fully configured development environment for this project, running directly in your web browser without installing any additional software.
 
@@ -28,11 +62,10 @@ You can use GitHub Codespaces to get a fully configured development environment 
 
 ![GitHub Codespaces](docs/images/create-codespace.png)
 
-GitHub Codespaces offers a monthly [free usage](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces#free-quota) quota of compute time and storage for personal GitHub accounts. This should be enough to finish the workshop. For more information about the pricing, please see the [GitHub Codespaces documentation](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces).
+> [!NOTE]
+> GitHub Codespaces offers a monthly [free usage](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces#free-quota) quota of compute time and storage for personal GitHub accounts. This should be enough to finish the workshop. For more information about the pricing, please see the [GitHub Codespaces documentation](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces).
 
-## Editing locally (skip when using GitHub Codespaces)
-
-To run this project locally, you need to have a few tools installed on your machine:
+### Editing locally (**skip when using GitHub Codespaces**)
 
 Please make sure you have [Node.js](https://nodejs.org/) version 20 or higher installed on your machine.
 
@@ -65,7 +98,7 @@ added 53 packages, and audited 54 packages in 5s
 
 You will only need to run this command again if you modify the dependencies in the `package.json` file.
 
-## Starting the project locally
+## Starting the development server
 
 Run the following command to start the project locally by navigating to the "Run and Debug" section in VS Code and clicking on the green play button.
 
