@@ -112,3 +112,22 @@ $ npm run dev
 ⎔ Starting local server...
 [wrangler:info] Ready on http://localhost:8787
 ```
+
+If you are running in GitHub Codespaces, you should see a pop-up that your application in now available.
+Click on the "Open in browser" button to open the application in your web browser. The preview will be automatically updated when you make changes to the code.
+
+![Open in browser](docs/images/open-in-browser.png)
+
+You should also see the following message in your terminal:
+
+```bash
+ ⛅️ wrangler 4.37.0
+───────────────────
+╭──────────────────────────────────────────────────────────────────────╮
+│  [b] open a browser [d] open devtools [c] clear console [x] to exit  │
+╰──────────────────────────────────────────────────────────────────────╯
+⎔ Starting local server...
+[wrangler:info] Ready on http://localhost:8787
+```
+
+If you are running locally, you can either press the "b" key to open the application in your web browser or manually navigate to `http://localhost:8787` in your web browser.
