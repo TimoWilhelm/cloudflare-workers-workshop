@@ -134,7 +134,9 @@ If you are running locally, you can either press the "b" key to open the applica
 
 ## Signing-in with Wrangler
 
-To be able to run some commands, you will need to sign-in with Wrangler runnning the following command:
+To be able to run some commands, you will need to sign-in with Wrangler
+
+If you are running locally, run the following command: 
 
 ```bash
 $ npx wrangler login
