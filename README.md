@@ -131,3 +131,52 @@ You should also see the following message in your terminal:
 ```
 
 If you are running locally, you can either press the "b" key to open the application in your web browser or manually navigate to `http://localhost:8787` in your web browser.
+
+## Signing-in with Wrangler
+
+To be able to run some commands, you will need to sign-in with Wrangler runnning the following command:
+
+```bash
+$ npx wrangler login
+Attempting to login via OAuth...
+```
+
+This should open a browser window where you can sign-in with your Cloudflare account.
+
+If you are running on GitHub Codespaces, you will need to sign-in using a personal access token.
+
+From the [Cloudflare dashboard](https://dash.cloudflare.com/profile/api-tokens/), go to your profile menu.
+
+![Profile](docs/images/profile.png)
+
+Click on "API Tokens" and then "Create Token".
+
+![Create API Token](docs/images/create-token.png)
+
+Select the "Read all resources" API token templates.
+
+![API Token Permissions](docs/images/token-permissions.png)
+
+Scroll down and click on "Continue to Summary" and finally on "Create Token".
+
+> [!CAUTION]
+> The token secret is only shown once. Do not store the secret in plaintext where others can access it. Anyone with this token can perform the authorized actions against the resources that the token has access to.
+
+![Token Created](docs/images/token-created.png)
+
+Copy the token and run the following command to set the `CLOUDFLARE_API_TOKEN` environment variable:
+
+> [!NOTE]
+> You might need to allow the Codespaces editor to allow pasting from your clipboard.
+
+```bash
+export CLOUDFLARE_API_TOKEN=<YOUR_API_TOKEN>
+```
+
+You can confirm that you are logged-in successfully using the following command:
+
+```bash
+$ npx wrangler whoami
+Getting User settings...
+👋 You are logged in with an OAuth Token, associated with the email test@example.com
+```
