@@ -130,13 +130,16 @@ You should also see the following message in your terminal:
 [wrangler:info] Ready on http://localhost:8787
 ```
 
+> [!NOTE]
+> You might need to focus the terminal in your editor. You can open the command palette (F1) and search for the "Terminal: Focus Terminal" command.
+
 If you are running locally, you can either press the "b" key to open the application in your web browser or manually navigate to `http://localhost:8787` in your web browser.
 
 ## Signing-in with Wrangler
 
 To be able to run some commands, you will need to sign-in with Wrangler
 
-If you are running locally, run the following command: 
+If you are running locally, run the following command:
 
 ```bash
 $ npx wrangler login
@@ -145,7 +148,10 @@ Attempting to login via OAuth...
 
 This should open a browser window where you can sign-in with your Cloudflare account.
 
-If you are running on GitHub Codespaces, you will need to sign-in using a personal access token.
+> [!NOTE]
+> If you are running on GitHub Codespaces, you will need to sign-in using a personal access token.
+
+### Using a personal access token
 
 From the [Cloudflare dashboard](https://dash.cloudflare.com/profile/api-tokens/), go to your profile menu.
 
